@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container3{
+    margin-top: 60px;
+}
+
+.head{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    /* font-weight: 1000; */
+    margin-top: 50px;
+}
+.grid_mcontent{
+    background-color: aliceblue;
+}
+
+.grid_content{
+    display: grid;
+    grid-template-rows: 300px 10px 75px;
+    grid-template-columns: 0.5fr 2.5fr 0.5fr 2.5fr 0.5fr 2.5fr 0.5fr;
+
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 50px;
+    
+    
+}
+.box21{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    
+}
+.box22{
+    grid-row: 1/2;
+    grid-column: 4/5;
+
+}
+.box23{
+    grid-row: 1/2;
+    grid-column: 6/7;
+}
+
+.box21, .box22, .box23{
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+.box24{
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+.box25{
+    grid-row: 3/4;
+    grid-column: 4/5;
+}
+
+.box26{
+    grid-row: 3/4;
+    grid-column: 6/7;
+}
+
+.box24, .box25, .box26{
+    background-color: beige;
+    border-radius: 5px;
+}
+.box24, .box25, .box26 p{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.certifications{
+    height: 350px;
+    background-color:beige;
+    margin-top: 50px;
+    font-size: 30px;
+    padding: 10px;
+    /* font-weight: 700; */
+    font-family: 'Oswald', sans-serif;
+}
+
+.c_content{
+    height: 200px;
+    width:600px;
+    background-color:cadetblue;
+    margin-top: 30px;
+}
+.c_content ul li{
+    font-size: 20px;
+    padding: 5px;
+}
+.contact_content{
+    background-color: rgb(119, 191, 193);
+}
